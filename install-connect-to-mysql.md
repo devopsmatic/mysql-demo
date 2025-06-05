@@ -36,6 +36,7 @@ az mysql flexible-server db create \
   --database-name mydb
   ```
   5. **Test Connection (Optional)**
+
 **Windows:** Download MySQL Installer
 https://dev.mysql.com/downloads/installer/
 
@@ -44,7 +45,7 @@ https://dev.mysql.com/downloads/installer/
 sudo apt update
 sudo apt install mysql-client
 ```
-MacOS
+**MacOS**
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
