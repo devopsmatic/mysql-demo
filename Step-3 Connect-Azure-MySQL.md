@@ -35,5 +35,6 @@ choco install dbeaver
 #launch using Start menu or commandline
 dbeaver
 ```
+
 #### **Connecting to Azure MySQL Server using dbeaver**
-![Config1](https://drive.google.com/file/d/11_4qi9l5lP_Sp18CEVJi18VOFhVKo0OU/view?usp=sharing)
+![https://github.com/devopsmatic/mysql-demo/blob/main/Hosting%20Websites.png?raw=true)
