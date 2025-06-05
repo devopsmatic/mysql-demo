@@ -35,31 +35,5 @@ az mysql flexible-server db create \
   --server-name $MYSQL_NAME \
   --database-name mydb
   ```
-  5. **Test Connection (Optional)**
+ 
 
-**Windows:** Download MySQL Installer
-https://dev.mysql.com/downloads/installer/
-
-**Ubuntu:**
-```bash
-sudo apt update
-sudo apt install mysql-client
-```
-**MacOS**
-```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
-brew install mysql-client
-
-echo 'export PATH="/usr/local/opt/mysql-client/bin:$PATH"' >> ~/.zshrc
-source ~/.zshrc [If you are nusing zsh]
-OR
-echo 'export PATH="/usr/local/opt/mysql-client/bin:$PATH"' >> ~/.bashrc
-source ~/.bashrc [If you are nusing bash]
-
-mysql --version
-```
-Connecting remotely to Azure MYSQL Server
-  ```bash
-  mysql -h $MYSQL_NAME.mysql.database.azure.com -u $ADMIN_USER@$MYSQL_NAME -p
-```
